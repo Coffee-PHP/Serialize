@@ -1,0 +1,32 @@
+{
+	"name": "coffeephp/serialize",
+	"description": "Provides an interface for serializer classes to implement.",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Danny Damsky",
+			"email": "dannydamsky99@gmail.com"
+		}
+	],
+	"keywords": [
+		"coffeephp",
+		"coffee",
+		"php",
+		"serialize",
+		"serialization"
+	],
+	"require": {
+		"php": ">=7.4",
+		"ext-apcu": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"CoffeePhp\\Serialize\\": "src/"
+		}
+	},
+	"config": {
+		"sort-packages": true,
+		"optimize-autoloader": true,
+		"apcu-autoloader": true
+	}
+}
