@@ -21,10 +21,9 @@
  * @since 2020-07-16
  */
 
-declare (strict_types=1);
+declare(strict_types=1);
 
 namespace CoffeePhp\Serialize\Contract;
-
 
 use CoffeePhp\Serialize\Exception\SerializeException;
 
