@@ -1,5 +1,7 @@
 # Coffee PHP - Serialize
 
+![Build](https://github.com/Coffee-PHP/Serialize/workflows/Build/badge.svg)
+
 Provides an interface for serializer classes to implement.
 
 ```
