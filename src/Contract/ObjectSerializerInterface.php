@@ -38,9 +38,7 @@ interface ObjectSerializerInterface
     /**
      * Serialize the given class into a binary string.
      *
-     * @param object $class
-     * @return string
      * @throws SerializeException
      */
-    public function serializeObject(object $class): string;
+    public function serializeObject(object $object): string;
 }

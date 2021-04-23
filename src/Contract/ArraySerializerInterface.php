@@ -38,8 +38,6 @@ interface ArraySerializerInterface
     /**
      * Serialize the given array into a string.
      *
-     * @param array $array
-     * @return string
      * @throws SerializeException
      */
     public function serializeArray(array $array): string;
